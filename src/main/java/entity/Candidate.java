@@ -17,7 +17,9 @@ public class Candidate {
         this.party = party;
         this.votes = votes;
     }
+    public Candidate(){
 
+    }
     public int getId() {
         return id;
     }

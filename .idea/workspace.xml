@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6119f458-a398-4b7c-97f8-223b0c5da99c" name="Changes" comment="Back initialized">
+    <list default="true" id="6119f458-a398-4b7c-97f8-223b0c5da99c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entity/Candidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Candidate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/provider/CandidateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/provider/CandidateProvider.java" afterDir="false" />
@@ -43,7 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653511235910</updated>
       <workItem from="1653511237450" duration="3892000" />
-      <workItem from="1653568468122" duration="5999000" />
+      <workItem from="1653568468122" duration="6865000" />
     </task>
     <task id="LOCAL-00001" summary="Back initialized">
       <created>1653511661867</created>

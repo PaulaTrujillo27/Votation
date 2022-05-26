@@ -28,4 +28,23 @@ public class CandidateProvider {
         connection.close();
         return candidates;
     }
+
+    public void UpdateVotes(Candidate candidate) throws SQLException, ClassNotFoundException {
+        dbConnection connection = new dbConnection();
+        String sql = "SELECT * FROM CANDIDATESA00365285 WHERE id = $ID";
+        sql=sql.replace("$ID", Integer.toString(candidate.getId()));
+        ResultSet resultSet = connection.getData(sql);
+        Candidate can = new Candidate();
+
+        while(resultSet.next()){
+            can.setVotes(resultSet.getInt("votes"));
+        }
+            sql = "UPDATE CANDIDATESA00365285 SET votes = $VOTES WHERE id = $ID";
+            sql= sql.replace("$ID", Integer.toString(candidate.getId()));
+            sql= sql.replace("$VOTES", Integer.toString(candidate.getVotes()+1));
+            connection.runQuery(sql);
+         connection.close();
+    }
 }
+
+
