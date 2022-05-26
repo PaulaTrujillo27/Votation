@@ -4,15 +4,15 @@ public class Candidate {
 
     private int id;
     private String president;
-    private String visce;
+    private String vice;
     private String presidentImage;
     private String party;
     private int votes;
 
-    public Candidate(int id, String president, String visce, String presidentImage, String party, int votes) {
+    public Candidate(int id, String president, String vice, String presidentImage, String party, int votes) {
         this.id = id;
         this.president = president;
-        this.visce = visce;
+        this.vice = vice;
         this.presidentImage = presidentImage;
         this.party = party;
         this.votes = votes;
@@ -34,12 +34,12 @@ public class Candidate {
         this.president = president;
     }
 
-    public String getVisce() {
-        return visce;
+    public String getVice() {
+        return vice;
     }
 
-    public void setVisce(String visce) {
-        this.visce = visce;
+    public void setVice(String vice) {
+        this.vice = vice;
     }
 
     public String getPresidentImage() {
