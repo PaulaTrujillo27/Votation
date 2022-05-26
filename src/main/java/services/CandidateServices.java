@@ -16,7 +16,7 @@ import java.util.ArrayList;
 public class CandidateServices {
 
     @GET
-    @Path("")
+    @Path("Candidatos")
     @Produces("application/json")
     public Response getCandidates(){
         CandidateProvider prov = new CandidateProvider();
@@ -33,7 +33,7 @@ public class CandidateServices {
     }
 
     @PUT
-    @Path("")
+    @Path("Resultados")
     @Produces("application/json")
     public Response putCandidates(Candidate candidate){
         CandidateProvider prov = new CandidateProvider();
